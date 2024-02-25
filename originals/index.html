@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Michael Berry's Portfolio</title>
+</head>
+<body>
+    <!-- header section includes my name, my picture, and navigation links -->
+    <header>
+        <h1>Michael Berry's Portfolio</h1>
+        <nav>
+            <ul>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <!-- about section the navigation link endpoint and the about me -->
+    <!-- I opted to keep the styling together using <br> in the html so that this section would look the same when switching the layout -->
+    <article id="about">
+        <h2>About me</h2>
+        <img src="./assets/images/test_image.jpg" alt="headshot of page author Michael Berry">
+    
+        <p>I am just starting out with my web development career. I am currently learning the front end aspects of web
+            development starting with HTML, CSS, and JavaScript. This page was made with HTML and CSS. <br><br> My background prior to this in Mechanical Engineering where I conducted spacecraft fire safety research and learned to code with MATLAB.
+            <br><br> Click the images to see some of my deployed work!</p>
+    </article>
+
+    <!-- the main seciton where the project cards and links to the projects are located -->
+    <!-- I used a div to mark the flexbox for the projects -->
+    <main id="work">
+        <h2>Work</h2>
+        <div>
+        <section class="first-project">
+            <h3>Horiseon Refactor</h3>
+            <!-- Links to projects are shown as an image from that project -->
+            <a href="https://mgberrysd.github.io/horiseon-refactor/">
+                <img src="./assets/images/screenshot.png" alt="Screenshot of horiseon refactor page">
+            </a>
+        </section>
+
+        <!-- The following sections are currently placeholders -->
+        <!-- Used the image from the first project as a placeholder to make sure everything was resizing properly -->
+        <section class="projects">
+            <h3>Coming Soon!</h3>
+            <a href="https://mgberrysd.github.io/horiseon-refactor/">
+                <img src="./assets/images/screenshot.png" alt="Screenshot of horiseon refactor page, placeholder">
+            </a>
+        </section>
+
+        <section class="projects">
+            <h3>Coming Soon!</h3>
+            <a href="https://mgberrysd.github.io/horiseon-refactor/">
+                <img src="./assets/images/screenshot.png" alt="Screenshot of horiseon refactor page, place holder">
+            </a>
+        </section>
+
+        <section class="projects">
+            <h3>Coming Soon!</h3>
+            <a href="https://mgberrysd.github.io/horiseon-refactor/">
+                <img src="./assets/images/screenshot.png" alt="Screenshot of horiseon refactor page, placeholder">
+            </a>
+        </section>
+
+        <section class="projects">
+            <h3>Coming Soon!</h3>
+            <a href="https://mgberrysd.github.io/horiseon-refactor/">
+                <img src="./assets/images/screenshot.png" alt="Screenshot of horiseon refactor page, placeholder">
+            </a>
+        </section>
+    </div>
+    </main>
+
+    <!-- contact info with the navigation link end -->
+    <!-- links are functional with the exception of the phone# which is a placeholder -->
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Phone:<br>555-555-5555</p>
+        <a href="mailto:mgberrysd@gmail.com">Email</a>
+        <a href="https://github.com/mgberrysd/">Github</a>
+        <a href="https://www.linkedin.com/in/michael-berry-6a7b36156/">LinkedIn</a>
+    </footer>
+</body>
+</html>
