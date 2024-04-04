@@ -7,11 +7,11 @@ export default function ProjectPage() {
   return (
     <main >
       <div>
-      <Container projectTitle='Mad Libs Generator' projectGithubLink='https://github.com/RCLobster/team-M-s-project-3' projectLink='https://team-m-s-project-3.onrender.com/' projectImage='../public/assets/images/madlibgen_home.png'>
+      <Container projectTitle='Mad Libs Generator' projectGithubLink='https://github.com/RCLobster/team-M-s-project-3' projectLink='https://team-m-s-project-3.onrender.com/' projectImage='../assets/images/madlibgen_home.png'>
       </Container>  
-      <Container projectTitle='Breaking Bread' projectGithubLink='https://github.com/falafelrapper/breaking-bread' projectLink='https://agile-cove-66310-81bc545fcfa7.herokuapp.com/' projectImage='../public/assets/images/breaking-bread.png'>
+      <Container projectTitle='Breaking Bread' projectGithubLink='https://github.com/falafelrapper/breaking-bread' projectLink='https://agile-cove-66310-81bc545fcfa7.herokuapp.com/' projectImage='../assets/images/breaking-bread.png'>
       </Container>
-      <Container projectTitle='The Prep Project' projectGithubLink='https://github.com/3123MtOlympus/theprepproject' projectLink='https://3123mtolympus.github.io/theprepproject/' projectImage='../public/assets/images/the-prep-project.png'>
+      <Container projectTitle='The Prep Project' projectGithubLink='https://github.com/3123MtOlympus/theprepproject' projectLink='https://3123mtolympus.github.io/theprepproject/' projectImage='../assets/images/the-prep-project.png'>
       </Container>
       </div>
     </main>
