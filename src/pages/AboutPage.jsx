@@ -2,7 +2,7 @@
 export default function AboutPage() {
   return (
     <article className="container pt-4">
-      <img src="../src/assets/images/test_image.jpg"></img>
+      <img src="../public/assets/images/test_image.jpg"></img>
       <p>
         Newly minted full stack web developer. Front end fundementals in HTML, CSS, and JavaScript/TypeScript. Expereience with Bottstrap, Handlebars.js, and ReactJS. Back end experience with NodeJS, Express, Apollo/graphQL, MySQL/Sequelize, and MongoDB/Mongoose. Check out my projects page to see some of the projects I have worked on.
       </p>
